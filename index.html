@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Javascript I Gusti Ngurah Santika </title>
+</head>
+<body>
+    <div>
+        <!-- ==================================Batas===================================== -->
+        <h1>Tugas No 1 <p>Penggunaan IF </p> </h1>
+             <p> Menampilkan Nilai IF Batas Sampai Jam 21:00 :
+            <p id="demo"></p> </p>
+            <!-- ======================================================================= -->
+            <h1><p>Penggunaan IF-Else </p> </h1>
+            <p> Menampilkan dari IF-Else :<p id="demo2"></p> </p>
+            <!-- ======================================================================= -->
+            <h1><p>Penggunaan Nested IF</p> </h1>
+            <label for="nilai">Masukkan nilai Anda:</label>
+            <input type="number" id="nilaiInput">
+            <button onclick="cekNilai()">Cek Nilai</button>
+            <p> Menampilkan dari NIlai Input:<p id="demo3"></p> </p>
+            <!-- ======================================================================= -->
+    </div>
+    <br>
+    <br>
+    <div>
+        <h1>Tugas No 2<p>Penggunaan For Loop </p> </h1>
+        <h4>Perulangan Yang Bisa Diinput Pengguna</h4>
+        <label for="jumlahPerulangan">Masukkan jumlah perulangan:</label>
+        <input type="number" id="jumlahPerulangan">
+        <button onclick="mulaiPerulangan()">Mulai Perulangan</button>
+        <ul id="demo4"></ul>
+        <!-- ======================================================================= -->
+        <h1><p>Penggunaan Contoh For Lain  </p> </h1>
+        <h4>Perulangan Yang Bisa Diinput Pengguna</h1>
+            <p>cars = ["BMW", "Volvo", "Saab", "Ford"];</p>
+            <label for="inputNumber">Masukkan angka data yang ingin di tampilkan:</label>
+            <input type="number" id="inputNumber">
+            <button onclick="tampilkanMobil()">Tampilkan Mobil</button>
+        
+            <p id="demo5"></p>
+            <br>
+        <!-- ======================================================================= -->
+        <p>1 2 3 4 5 6 7 8 9 10</p>
+        <label for="stopNumber">Masukkan angka Break Looping :</label>
+        <input type="number" id="stopNumberInput">
+        <button onclick="jalankanLoop()">Jalankan Loop</button>
+        <p id="demo6"></p>
+        <br>
+        <!-- ======================================================================= -->
+        <p>1 2 3 4 5</p>
+        <label for="skipNumber">Angka yang ingin di-continue:</label>
+        <input type="number" id="skipNumber">
+        <button onclick="tampilkanAngka()">Tampilkan Angka</button>
+        <p id="demo7"></p>
+        <br>
+        <!-- ======================================================================= -->
+    </div>
+    <div>
+        <br><br>
+        <h1>Tugas No 3<p>While </p> </h1>
+        <p>while looping</p>
+        <label for="inputAngka">Masukkan angka maksimal:</label>
+        <input type="number" id="inputAngka">
+        <button onclick="jalankanPerulangan()">Jalankan Perulangan</button>
+        <p id="demo8"></p>
+        <br>
+        <!-- ======================================================================= -->
+        <p>angka yang benar adalah 7</p>
+        <label for="tebakanAngka">Tebak angka (1-10):</label>
+        <input type="number" id="tebakanAngka">
+        <button onclick="cekTebakan()">Cek Tebakan</button>
+
+        <p id="hasilTebakan"></p>
+    </div>
+    <div>
+        <br><br>
+        <h1>Tugas No 4<p>Swicth case</p> </h1>
+        <p>Hitungan</p>
+        <label for="angka1">Masukkan angka pertama:</label>
+        <input type="number" id="angka1">
+        <br>
+        <label for="angka2">Masukkan angka kedua:</label>
+        <input type="number" id="angka2">
+        <br>
+        <label for="operasi">Pilih operasi:</label>
+        <select id="operasi">
+            <option value="penjumlahan">Penjumlahan</option>
+            <option value="pengurangan">Pengurangan</option>
+            <option value="perkalian">Perkalian</option>
+            <option value="pembagian">Pembagian</option>
+        </select>
+        <br>
+        <button onclick="hitung()">Hitung</button>
+        <p id="hasil"></p>
+        <br><br>
+        <!-- ======================================================================= -->
+        <p>Hitung Panjang Kata</p>
+        <label for="kataInput">Masukkan kata:</label>
+        <input type="text" id="kataInput">
+        <button onclick="hitungPanjangKata()">Hitung Panjang</button>
+        <div id="hasil2"></div>
+    
+    </div>
+        
+        
+        <script src="sct.js"></script>
+        <script src="if.js"></script>
+        <script src="for.js"></script>
+        <script src="while.js"></script>
+        <script src="function.js"></script>
+        <script src="swicthcase.js"></script>
+
+</body>
+</html>
